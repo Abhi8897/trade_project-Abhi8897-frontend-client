@@ -1,0 +1,17 @@
+use milestone; //creating new db for application.
+db.createCollection('games'); //creating collection to store items.
+
+//Inserting data into the collection
+db.games.insertMany(
+[{Name:"Call of Duty",Category:"First Person Shooter",Details:"Call of Duty is a first-person shooter video game franchise published by Activision. Starting out in 2003, it first focused on games set in World War II. Over time, the series has seen games set in the midst of the Cold War, futuristic worlds, and the modern day.", Seller: "abhi",
+Released:"2003", Image:""},
+{Name:"Dead Space", Category:"First Person Shooter", Details:"Dead Space is a science fiction/horror media franchise created by Glen Schofield and Michael Condrey, developed by Visceral Games, and published and owned by Electronic Arts.", Seller: "jake", Released:"2008", Image:""},
+{Name:"Doom", Category:"First Person Shooter", Details:"Doom is a 1993 first-person shooter (FPS) game developed by id Software for MS-DOS. Players assume the role of a space marine, popularly known as Doomguy, fighting their way through hordes of invading demons from hell.", Seller: "ben", Released:"1993", Image:""}
+]);
+
+db.games.insertMany(
+[
+{Name:"God of War", Category:"Role Playing", Details:"God of War is an action-adventure game franchise created by David Jaffe at Sony's Santa Monica Studio. It began in 2005 on the PlayStation 2 (PS2) video game console and has become a flagship series for PlayStation, consisting of nine installments across multiple platforms.", Seller: "Surya", Released:"1993", Image:""},
+{Name:"The witcher", Category:"Role Playing", Details:"The Witcher is a 2007 action role-playing game developed by CD Projekt Red for Microsoft Windows and CD Projekt on OS X. It was based on the fantasy novel series The Witcher by Polish author Andrzej Sapkowski.", Seller: "vathsav", Released:"2007", Image:""},
+{Name:"Read Dead Redemption", Category:"Role Playing", Details:"Red Dead Redemption is a 2010 action-adventure game developed by Rockstar San Diego and published by Rockstar Games.", Seller: "abhi", Released:"2010", Image:""}
+]);
