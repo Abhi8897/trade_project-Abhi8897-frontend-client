@@ -1,5 +1,4 @@
 # trade_project
-This repository is the starting template
 
 The repository includes four files:
 
@@ -9,7 +8,7 @@ The repository includes four files:
 - newTrade.html: adding new item page
 ## React Client (Frontend Showcase)
 
-This repo now includes a **React + TypeScript** client app in `client/` that consumes a small JSON API from the Express server.
+This repo  includes a **React + TypeScript** client app in `client/` that consumes a small JSON API from the Express server.
 
 ### Run (dev)
 
@@ -42,8 +41,4 @@ The client proxies `/api` requests to the server (see `client/vite.config.ts`), 
 - `POST /api/games/:id/watch`
 - `POST /api/games/:id/unwatch`
 
-### Suggested frontend talking points (interview)
 
-- React Router pages, reusable components, loading/error/empty states
-- Fetch wrapper with typed responses and session cookies (`credentials: 'include'`)
-- Search/filter UX and watchlist interactions without page reload
